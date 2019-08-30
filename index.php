@@ -11,7 +11,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/uandes_prueba/lib/smarty/libs/Smarty.
  * Description of ClassIdex: controlador del archivo index
  *
  * @author Juan Manuel gutierrez
- * @email juangu455@yahoo.com.cop
+ * @email juangu455@yahoo.com.co
  * @cel 3218734232
  */
 class ClassIndex {
