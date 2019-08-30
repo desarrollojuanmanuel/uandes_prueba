@@ -1,0 +1,26 @@
+<div class="jumbotron"> 
+
+    <h2 class="">EXPLORA NUESTRA OFERTA</h2>
+    <p class="textsub">Descubre lo que tenemos para ti!</p>
+
+    <div class="row thumbnailrow">
+
+        {foreach name=outer item=contact from=$data}
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="{$contact['imagen']}" width="100%">
+                <div class="caption">
+                    <h2>{$contact['titulo']}</h2>
+                    <hr>
+                    <p class="cards">{$contact['text']}</p>
+                    <button class="btn-default" onclick="accionjs()">Conoce M&aacute;s</button>
+                </div>
+            </div>
+        </div>
+        {/foreach}
+
+    </div>
+</div>
+
+
