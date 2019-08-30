@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2019-08-30 14:19:00
+/* Smarty version 3.1.30, created on 2019-08-30 14:30:03
   from "C:\wamp\www\uandes_prueba\templates\slider.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5d6930545680a9_25294069',
+  'unifunc' => 'content_5d6932ebccbd34_54439298',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '337422794e589641f3b72ed78e204f656f34363b' => 
     array (
       0 => 'C:\\wamp\\www\\uandes_prueba\\templates\\slider.html',
-      1 => 1567174738,
+      1 => 1567175391,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d6930545680a9_25294069 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d6932ebccbd34_54439298 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -43,14 +43,14 @@ function content_5d6930545680a9_25294069 (Smarty_Internal_Template $_smarty_tpl)
         <div class="item">
             <img src="img/slide2.jpg" width="100%">
             <div class="carousel-caption">
-                <button type="button" class="btn-slide" onclick="alert('info slider 1')">Conoce mas</button>
+                <button type="button" class="btn-slide" onclick="alert('info slider 2')">Conoce mas</button>
             </div>
         </div>
 
         <div class="item">
             <img src="img/slide3.jpg" width="100%">
             <div class="carousel-caption">
-                <button type="button" class="btn-slide" onclick="alert('info slider 1')">Conoce mas</button>
+                <button type="button" class="btn-slide" onclick="alert('info slider 3')">Conoce mas</button>
             </div>
         </div>
     </div>
