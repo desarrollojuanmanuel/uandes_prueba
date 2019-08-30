@@ -73,6 +73,16 @@ hr{
     border-radius: 10px;
 }
 
+.btn-slide{
+    background: rgba(0,0,0, .1);
+    margin-left: 90%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    color: #fff;
+    border-color: yellow;
+}
+
 @media screen and (max-width: 1600px) {
     .carousel-inner{
         height: 400px;
